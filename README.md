@@ -1,6 +1,10 @@
-# Codex-App
+# Mima - Coding AI
 
 Based on tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=2FeymQoKvrk&t=26s&ab_channel=JavaScriptMastery)
+
+## Example
+
+![](img/Example1.png =800x800)
 
 ## Prerequisite
 
@@ -9,7 +13,7 @@ Based on tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=2FeymQ
 
 ## Usage
 
-Obtain the API key from <https://openai.com/api/>.
+Obtain the API key from <https://openai.com/api/> (<https://beta.openai.com/account/api-keys>).
 
 ``` shell
 # Add API key to .env
@@ -21,7 +25,7 @@ sh local_run.sh
 
 Then open <http://localhost:5173/> on browser.
 
-For shuting down client and server:
+To shut down client and server:
 
 ``` shell
 # Add API key to .env
