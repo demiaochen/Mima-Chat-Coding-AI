@@ -4,7 +4,8 @@ Based on tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=2FeymQ
 
 ## Example
 
-![](img/Example1.png =800x800)
+<!-- ![ex1](img/Example1.png) -->
+<img src="img/Example1.png" alt="ex1" width="700"/>
 
 ## Prerequisite
 
