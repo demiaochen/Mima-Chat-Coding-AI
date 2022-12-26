@@ -4,6 +4,13 @@ Deployed at <https://mima-demiao.vercel.app>
 
 Based on tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=2FeymQoKvrk&t=26s&ab_channel=JavaScriptMastery)
 
+## Stack
+
+- Client - ViteJs
+
+- Server - Express.js
+
+    - API - OpenAI API
 ## Example
 
 <!-- ![ex1](img/Example1.png) -->
