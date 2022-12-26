@@ -16,6 +16,11 @@ Based on tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=2FeymQ
 
 ## Usage
 
+Clone the repo to your computer by running the following command in a terminal.
+```shell
+git clone git@github.com:demiaochen/Mima-Coding-AI.git
+``` 
+
 Obtain the API key from <https://openai.com/api/> (<https://beta.openai.com/account/api-keys>).
 
 To run it locally, you need to change ```server_addr``` in ```client/script.js``` to ```http://localhost:6721``` (see comment in ```script.js```).
@@ -33,7 +38,6 @@ Then open <http://localhost:5173/> on browser.
 To shut down client and server:
 
 ``` shell
-# Add API key to .env
 sh shut_down.sh
 ```
 or 
