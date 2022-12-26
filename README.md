@@ -52,6 +52,10 @@ or
 ```shell
 pkill screen
 ```
+## TO-DOs
+- [ ] Utilising multiple OpenAI API instead of one
+- [ ] Improving the aesthetics of UI, revamping the design and layout to be more visually pleasing
+
 
 ## Tutorial
 
