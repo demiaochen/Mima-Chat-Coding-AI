@@ -1,8 +1,9 @@
 # Codex-App
 
-Based on tutorial https://www.youtube.com/watch?v=2FeymQoKvrk&t=26s&ab_channel=JavaScriptMastery
+Based on tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=2FeymQoKvrk&t=26s&ab_channel=JavaScriptMastery)
 
-## Steps
+### Client
+
 Initialising JS project
 ``` shell
 npm create vite@latest client --template vanilla
@@ -14,3 +15,13 @@ curl -O  https://gist.githubusercontent.com/adrianhajdin/2059ca74452a18d1560aac9
 
 [Assets Download Link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/adrianhajdin/project_openai_codex/tree/main/client/assets)
 
+### Server
+
+``` shell
+mkdir server && cd server
+npm init -y
+npm install cors dotenv express nodemon openai
+```
+
+- OpenAI text-davinci-003
+https://beta.openai.com/playground/p/default-openai-api?lang=node.js&model=text-davinci-003
