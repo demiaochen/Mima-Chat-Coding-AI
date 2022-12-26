@@ -1,7 +1,9 @@
+// uncomment the following line and comment out second following to run it locally
+// const server_addr = "http://localhost:6721"
+const server_addr = "https://mima.onrender.com/"
+
 import bot from './assets/perfect_blue.png'
 import user from './assets/user.svg'
-
-const server_addr = "http://localhost:6721"
 
 const form = document.querySelector('form');
 const chatContainer = document.querySelector('#chat_container');
