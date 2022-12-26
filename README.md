@@ -1,4 +1,4 @@
-# Mima - Coding AI
+# Mima - Chat Coding AI
 
 Deployed at <https://mima-demiao.vercel.app>
 
