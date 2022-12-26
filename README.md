@@ -6,7 +6,7 @@ Based on tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=2FeymQ
 
 ## Stack
 
-- Client - ViteJs
+- Client - ViteJS
 
 - Server - Express.js
 
