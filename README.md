@@ -2,9 +2,38 @@
 
 Based on tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=2FeymQoKvrk&t=26s&ab_channel=JavaScriptMastery)
 
+## Prerequisite
+
+- Node.js (v18.12.1)
+- npm (8.19.2)
+
+## Usage
+
+Obtain the API key from <https://openai.com/api/>.
+
+``` shell
+# Add API key to .env
+sh add_api_key.sh [YOUR_API_KEY]
+
+# Run client and server (The script uses screen to run )
+sh local_run.sh
+```
+
+Then open <http://localhost:5173/> on browser.
+
+For shuting down client and server:
+
+``` shell
+# Add API key to .env
+sh shut_down.sh
+```
+
+## Tutorial
+
 ### Client
 
 Initialising JS project
+
 ``` shell
 npm create vite@latest client --template vanilla
 cd client && npm install
@@ -24,4 +53,4 @@ npm install cors dotenv express nodemon openai
 ```
 
 - OpenAI text-davinci-003
-https://beta.openai.com/playground/p/default-openai-api?lang=node.js&model=text-davinci-003
+<https://beta.openai.com/playground/p/default-openai-api?lang=node.js&model=text-davinci-003>
