@@ -6,9 +6,9 @@ Based on tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=2FeymQ
 
 ## Stack
 
-- Client - ViteJS
+- Client - JS with React, built by Vite.js
 
-- Server - Express.js
+- Server - Node.js with Express
 
     - API - OpenAI API
 ## Example
